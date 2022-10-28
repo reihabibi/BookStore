@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.darkGradientBackground{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient( #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.darkBackground{
+    background: #203A43 ;
+}
+
+.colorLight{
+   background-color:  #203a43;
+}
+
+.colorLightOpacity{
+    background-color:  rgb(33, 58, 66, 0.97);
+ }
+
+.btnColor{
+    background-color: #01b58a;
+}
+
+.btnColorSecond{
+    border: 2px solid #01b58a;
+    border-radius: 0.5rem;
+
+}
+.btnColorSecond:hover{
+    background-color: #01b58b3d;
+}
+.txtVertical {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+  }
