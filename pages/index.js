@@ -7,17 +7,12 @@ import {
   getBooksNotFeturedAndBest,
 } from "../services";
 
-import NavBar from "../components/NavBar";
-import Hero from "../components/Hero";
-import BooksDiplay from "../components/BookDisplay";
 import Newsletter from "../components/Newsletter";
-import SideBar from "../components/SideBar";
 import Alert from "../components/Alert";
+import BookItem from "../components/BookItem";
 import { useState } from "react";
 
 export default function Home({
-  books,
-  categories,
   booksBestSeller,
   booksFetured,
   booksNotFeturedAndBest,
@@ -25,37 +20,57 @@ export default function Home({
   const [alertNotAviable, setAlertNotAviable] = useState(false);
 
   return (
-    <div className="darkGradientBackground">
-      <div className="container mx-auto w-sceen px-4">
+    <div className="container mx-auto py-6 pb-12 px-4 lg:px-12">
+
         <Head>
           <title>Book Store</title>
           <meta name="description" content="Book store made by Rei Habibi" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
+
         {alertNotAviable === true && (
           <Alert setAlertNotAviable={setAlertNotAviable} />
         )}
-        <NavBar />
-        <Hero booksFetured={booksFetured} />
-        <BooksDiplay books={booksBestSeller} title={"Best Sellers"} />
-        <BooksDiplay books={booksNotFeturedAndBest} title={"Latest Books"} />
-        <Newsletter />
+
+        <div>
+          <h1 class="mb-6 text-2xl text-white ">Best Sellers</h1>
+          <div className="grid grid-cols-4 lg:gap-y-10">
+            {booksBestSeller.map((book) => (
+              <BookItem book={book} />
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-16">
+          <h1 class="mb-6 text-2xl text-white ">Some Summer Books</h1>
+          <div className="grid grid-cols-4 lg:gap-y-10">
+            {booksFetured.map((book) => (
+              <BookItem book={book} />
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-16">
+          <h1 class="mb-6 text-2xl text-white ">Latest Books</h1>
+          <div className="grid grid-cols-4 lg:gap-y-10">
+            {booksNotFeturedAndBest.map((book) => (
+              <BookItem book={book} />
+            ))}
+          </div>
+        </div>
+
+        <Newsletter/>
       </div>
-    </div>
   );
 }
 
 export async function getStaticProps() {
-  const books = (await getBooks()) || [];
-  const categories = (await getCategories()) || [];
   const booksBestSeller = (await getBooksBestSeller()) || [];
   const booksFetured = (await getBooksFetured()) || [];
   const booksNotFeturedAndBest = (await getBooksNotFeturedAndBest()) || [];
 
   return {
     props: {
-      books,
-      categories,
       booksBestSeller,
       booksFetured,
       booksNotFeturedAndBest,

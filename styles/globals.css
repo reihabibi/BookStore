@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .darkGradientBackground{
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient( #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -13,15 +19,24 @@
 }
 
 .colorLight{
-   background-color:  #203a43;
+   background-color:  #01b58b3d;
 }
 
 .colorLightOpacity{
     background-color:  rgb(33, 58, 66, 0.97);
  }
 
+ .searchColor{
+    background-color:  #01b58b3d;
+    border: 2px solid #01b58a;
+ }
+
 .btnColor{
     background-color: #01b58a;
+}
+
+.btnColorHover:hover{
+    background-color: #01b58b3d;
 }
 
 .btnColorSecond{

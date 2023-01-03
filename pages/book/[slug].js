@@ -19,27 +19,28 @@ export default function Book({ book }) {
   }
 
   return (
-    <div className="darkBackground">
-      <div className="container mx-auto px-4 min-h-screen">
-        <NavBar />
+    <div className="container mx-auto px-4 md:px-12 min-h-screen">
+      <div className="">
         {alertNotAviable === true && (
           <Alert setAlertNotAviable={setAlertNotAviable} />
         )}
 
-        <div class="grid w-full grid-cols-1 lg:grid-cols-2 justify-items-center px-4 py-20 gap-y-8 ">
-          <div>
+        <div class="flex pt-6 items-center gap-x-28">
+          <div className="">
             <motion.figure layoutId={book.title}>
-              <img src={book.img.url} alt=""></img>
+              <img className="w-64 rounded-lg" src={book.img.url} alt=""></img>
             </motion.figure>
           </div>
 
-          <div class="w-full my-10 lg:my-auto">
+          <div class="">
             <div class="text-center lg:text-left ">
-              <h1 class="text-4xl text-white">{book.title}</h1>
-              <p class="mt-4 text-xl text-white">by {book.author.name}</p>
+              <h1 class="text-3xl text-white">{book.title}</h1>
+              <p class="mt-1 text-lg font-semibold text-gray-300">
+                by {book.author.name}
+              </p>
             </div>
             <motion.div
-              class="flex justify-around my-16"
+              class="flex items-center gap-x-24 my-16"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
@@ -58,27 +59,10 @@ export default function Book({ book }) {
               </div>
             </motion.div>
 
-            <motion.div
-              class="my-16"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
-            >
-              <h1 class="mb-1 text-lg text-white font-medium">
-                {book.category.title}
-              </h1>
-              <p class="text-gray-400">
-                {book.description.length > 400
-                  ? book.description.substring(0, 320) + "..."
-                  : book.description}
-              </p>
-              <p class="text-center text-gray-600 hover:text-gray-500">
-                Read More
-              </p>
-            </motion.div>
-
             <div class="flex items-center gap-6">
-              <button class="py-2 px-8 text-white font-bold btnColor rounded-lg hover:opacity-95">
+              <button
+                class="py-2 px-8 text-white font-bold btnColor rounded-lg hover:opacity-95"
+                onClick={() => setAlertNotAviable(true)}>
                 Read Now
               </button>
               <AiOutlineHeart
@@ -89,6 +73,22 @@ export default function Book({ book }) {
           </div>
         </div>
       </div>
+      <motion.div
+        class="my-16"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.4 }}
+      >
+        <h1 class="mb-1 text-lg text-white font-medium">
+          {book.category.title}
+        </h1>
+        <p class="text-gray-400">
+          {book.description.length > 400
+            ? book.description.substring(0, 320) + "..."
+            : book.description}
+        </p>
+        <p class="text-center text-gray-600 hover:text-gray-500">Read More</p>
+      </motion.div>
     </div>
   );
 }

@@ -1,47 +1,67 @@
-import React, { useState } from "react";
+import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
-export default function SideBar() {
-  const [isExplore, setIsExplore] = useState(true);
 
+import { MdOutlineMenuBook, MdHomeFilled } from "react-icons/md";
+import { CgNotes } from "react-icons/cg";
+import { ImSearch, ImBooks } from "react-icons/Im";
+import { FiSettings, FiHelpCircle } from "react-icons/fi";
+
+function SideBar({ setIsSidebarOpen }) {
+  const Pages = [
+    { name: "Home", url: "/", icon: <MdHomeFilled /> },
+    { name: "Find Books", url: "/Explore", icon: <ImSearch /> },
+    { name: "My Books", url: "", icon: <MdOutlineMenuBook /> },
+    { name: "My Notes", url: "", icon: <CgNotes /> },
+  ];
+
+  const router = useRouter();
   return (
-    <div className="fixed top-0 right-0 py-10 px-4 h-screen w-80 colorLightOpacity border-l border-slate-700 shadow-2xl">
-      <div>{">>"}</div>
-      <div className="w-full my-8 grid grid-cols-1 justify-items-center">
-        <img
-          className="rounded-full w-24 h-24 object-cover"
-          src="https://images.unsplash.com/photo-1527285286036-1ae743926077?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdpcmwlMjByZWFkaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-          alt=""
-        />
-        <h1>Name</h1>
+    <div className="fixed lg:sticky w-64 top-0 bottom-0 z-30 h-screen px-4 ">
+      <div>
+        <div className="flex items-center justify-between  ">
+          <div className="flex items-center gap-x-2 ml-2 my-9 text-gray-100 text-2xl font-semibold hover:text-gray-300 cursor-pointer">
+            <ImBooks />
+            <h1>Book Store</h1>
+          </div>
+          <button
+            className="block lg:hidden"
+            onClick={() => setIsSidebarOpen(false)}
+          >
+            X
+          </button>
+        </div>
+        <div className="">
+          {Pages.map((page, index) => (
+            <Link key={index} href={page.url}>
+              <div
+                className={
+                  "flex items-center gap-4 my-4 py-3 px-6 w-full rounded-xl text-left font-semibold cursor-pointer animation duration-200 ease-in-out " +
+                  (router.pathname === page.url
+                    ? " btnColor text-white"
+                    : " text-white btnColorHover")
+                }
+              >
+                <div className="text-xl">{page.icon}</div>
+                {page.name}
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
-      <div class="w-full my-10 py-8 grid grid-cols-1 justify-items-center gap-y-4 border-y border-slate-500">
-        <button
-          class={
-            "w-3/4 py-2 text-white rounded-lg font-medium  transition ease-in-out delay-100 " +
-            (isExplore ? "btnColor " : " hover:text-slate-300")
-          }
-          onClick={() => setIsExplore(true)}
-        >
-          Explore
+      <div className="absolute bottom-8 w-5/6">
+        <button className="flex items-center gap-4 my-2 py-2 px-6 w-full rounded-xl text-left text-white  btnColorHover font-semibold cursor-pointer ">
+          <FiHelpCircle className="text-xl" />
+          Get Help
         </button>
-        <button
-          class={
-            "w-3/4 py-2 px-6 text-white font-medium  rounded-lg transition ease-in-out delay-100 " +
-            (isExplore ? " hover:text-slate-300" : "btnColor")
-          }
-          onClick={() => setIsExplore(false)}
-        >
-          My Books
-        </button>
-      </div>
-      <div class="w-full grid grid-cols-1 justify-items-center gap-y-4">
-        <button class="w-3/4 py-2 text-white rounded-lg font-medium transition ease-in-out delay-100 hover:bg-gray-500 hover:bg-opacity-10">
-          Explore
-        </button>
-        <button class="w-3/4 py-2 px-6 text-white font-medium  rounded-lg transition ease-in-out delay-100 hover:bg-gray-500 hover:bg-opacity-10">
-          My Books
+        <button className="flex items-center gap-4 my-2 py-2 px-6 w-full rounded-xl text-left text-white btnColorHover font-semibold cursor-pointer">
+          <FiSettings className="text-xl" />
+          Settings
         </button>
       </div>
     </div>
   );
 }
+
+export default SideBar;
