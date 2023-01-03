@@ -5,13 +5,13 @@ import { useRouter } from "next/router";
 
 import { MdOutlineMenuBook, MdHomeFilled } from "react-icons/md";
 import { CgNotes } from "react-icons/cg";
-import { ImSearch, ImBooks } from "react-icons/Im";
+/* import { ImSearch, ImBooks } from "react-icons/Im"; */
 import { FiSettings, FiHelpCircle } from "react-icons/fi";
 
 function SideBar({ setIsSidebarOpen }) {
   const Pages = [
     { name: "Home", url: "/", icon: <MdHomeFilled /> },
-    { name: "Find Books", url: "/Explore", icon: <ImSearch /> },
+    { name: "Find Books", url: "/Explore", icon: <FiSettings /> },
     { name: "My Books", url: "", icon: <MdOutlineMenuBook /> },
     { name: "My Notes", url: "", icon: <CgNotes /> },
   ];
@@ -22,7 +22,7 @@ function SideBar({ setIsSidebarOpen }) {
       <div>
         <div className="flex items-center justify-between  ">
           <div className="flex items-center gap-x-2 ml-2 my-9 text-gray-100 text-2xl font-semibold hover:text-gray-300 cursor-pointer">
-            <ImBooks />
+            <FiSettings />
             <h1>Book Store</h1>
           </div>
           <button
