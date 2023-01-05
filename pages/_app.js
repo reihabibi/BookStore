@@ -11,9 +11,9 @@ function MyApp({ Component, pageProps }) {
     <LayoutGroup>
       <div className="flex darkGradientBackground  min-h-screen ">
         <div className="">
-          {isSidebarOpen ? <SideBar setIsSidebarOpen={setIsSidebarOpen} /> : ""}
+          <SideBar setIsSidebarOpen={setIsSidebarOpen} isSidebarOpen={isSidebarOpen} />
         </div>
-        <div className="w-full container mx-auto py-6 pb-12 px-4 lg:px-12">
+        <div className={"w-full container mx-auto py-6 lg:pb-12 px-4 lg:px-12 " + (isSidebarOpen ? "opacity-0 lg:opacity-100 ":"")}>
           <NavBar
             setIsSidebarOpen={setIsSidebarOpen}
             isSidebarOpen={isSidebarOpen}

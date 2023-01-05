@@ -20,7 +20,7 @@ export default function Home({
   const [alertNotAviable, setAlertNotAviable] = useState(false);
 
   return (
-    <div className="container mx-auto py-6 pb-12 px-4 lg:px-12">
+    <div className=" py-6">
 
         <Head>
           <title>Book Store</title>
@@ -33,8 +33,8 @@ export default function Home({
         )}
 
         <div>
-          <h1 class="mb-6 text-2xl text-white ">Best Sellers</h1>
-          <div className="grid grid-cols-4 lg:gap-y-10">
+          <h1 class="mb-8 text-2xl text-white ">Best Sellers</h1>
+          <div className="grid grid-cols-2 lg:grid-cols-4 2xl:grid-cols-5 gap-y-10  gap-x-5 justify-items-center	">
             {booksBestSeller.map((book) => (
               <BookItem book={book} />
             ))}
@@ -42,8 +42,8 @@ export default function Home({
         </div>
 
         <div className="mt-16">
-          <h1 class="mb-6 text-2xl text-white ">Some Summer Books</h1>
-          <div className="grid grid-cols-4 lg:gap-y-10">
+          <h1 class="mb-8 text-2xl text-white ">Some Summer Books</h1> 
+          <div className="grid grid-cols-2 lg:grid-cols-4 2xl:grid-cols-5 gap-y-10 gap-x-5 justify-items-center	">
             {booksFetured.map((book) => (
               <BookItem book={book} />
             ))}
@@ -51,8 +51,8 @@ export default function Home({
         </div>
 
         <div className="mt-16">
-          <h1 class="mb-6 text-2xl text-white ">Latest Books</h1>
-          <div className="grid grid-cols-4 lg:gap-y-10">
+          <h1 class="mb-8 text-2xl text-white ">Latest Books</h1>
+          <div className="grid grid-cols-2 lg:grid-cols-4 2xl:grid-cols-5 gap-y-10 gap-x-5 justify-items-center	">
             {booksNotFeturedAndBest.map((book) => (
               <BookItem book={book} />
             ))}

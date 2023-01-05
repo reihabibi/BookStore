@@ -2,7 +2,6 @@ import React from "react";
 import { useRouter } from "next/router";
 
 import { useState } from "react";
-import NavBar from "../../components/NavBar";
 import Alert from "../../components/Alert";
 
 import { motion } from "framer-motion";
@@ -19,70 +18,76 @@ export default function Book({ book }) {
   }
 
   return (
-    <div className="container mx-auto px-4 md:px-12 min-h-screen">
+    <div className="container mx-auto py-8 lg:py-0 px-4 md:px-12 min-h-screen">
       <div className="">
         {alertNotAviable === true && (
           <Alert setAlertNotAviable={setAlertNotAviable} />
         )}
 
-        <div class="flex pt-6 items-center gap-x-28">
+        <div class="flex flex-col lg:flex-row pt-6 items-center gap-x-28 gap-y-10">
           <div className="">
             <motion.figure layoutId={book.title}>
-              <img className="w-64 rounded-lg" src={book.img.url} alt=""></img>
+              <img className="w-48 rounded-lg" src={book.img.url} alt=""></img>
             </motion.figure>
           </div>
 
           <div class="">
-            <div class="text-center lg:text-left ">
+            <motion.div
+              class="text-center lg:text-left "
+              initial={{ opacity: 0,  }}
+              animate={{ opacity: 1, }}
+              transition={{ delay: 0.5, duration: 1.5 }}
+            >
               <h1 class="text-3xl text-white">{book.title}</h1>
               <p class="mt-1 text-lg font-semibold text-gray-300">
                 by {book.author.name}
               </p>
-            </div>
+            </motion.div>
             <motion.div
-              class="flex items-center gap-x-24 my-16"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
+              initial={{ opacity: 0,  }}
+              animate={{ opacity: 1, }}
+              transition={{ delay: 0.8, duration: 2 }}
             >
-              <div class="flex flex-col text-center gap-y-2">
-                <h1 class="text-xl font-medium text-white">2018</h1>
-                <p class="text-white">Release</p>
+              <div class="flex items-center gap-x-10 md:gap-x-24 my-12">
+                <div class="flex flex-col text-center gap-y-2">
+                  <h1 class="md:text-xl font-medium text-white">2018</h1>
+                  <p class="text-white">Release</p>
+                </div>
+                <div class="flex flex-col text-center gap-y-2">
+                  <h1 class="md:text-xl font-medium text-white"> 124</h1>
+                  <p class="text-white">Nr of Pages</p>
+                </div>
+                <div class="flex flex-col text-center gap-y-2">
+                  <h1 class="md:text-xl font-medium text-white">English</h1>
+                  <p class="text-white">Language</p>
+                </div>
               </div>
-              <div class="flex flex-col text-center gap-y-2">
-                <h1 class="text-xl font-medium text-white"> 124</h1>
-                <p class="text-white">Number of Page</p>
-              </div>
-              <div class="flex flex-col text-center gap-y-2">
-                <h1 class="text-xl font-medium text-white">English</h1>
-                <p class="text-white">Language</p>
+              <div class="flex justify-center lg:justify-start items-center gap-6">
+                <button
+                  class="py-2 px-8 text-white font-bold btnColor rounded-lg hover:opacity-95"
+                  onClick={() => setAlertNotAviable(true)}
+                >
+                  Read Now
+                </button>
+                <AiOutlineHeart
+                  onClick={() => setAlertNotAviable(true)}
+                  className="h-7 w-7 text-white hover:text-red-400"
+                />
               </div>
             </motion.div>
-
-            <div class="flex items-center gap-6">
-              <button
-                class="py-2 px-8 text-white font-bold btnColor rounded-lg hover:opacity-95"
-                onClick={() => setAlertNotAviable(true)}>
-                Read Now
-              </button>
-              <AiOutlineHeart
-                onClick={() => setAlertNotAviable(true)}
-                className="h-7 w-7 text-white hover:text-red-400"
-              />
-            </div>
           </div>
         </div>
       </div>
       <motion.div
         class="my-16"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.4 }}
+        initial={{ opacity: 0, }}
+        animate={{ opacity: 0.8, }}
+        transition={{ delay: 1, duration: 2 }}
       >
         <h1 class="mb-1 text-lg text-white font-medium">
           {book.category.title}
         </h1>
-        <p class="text-gray-400">
+        <p class="text-gray-300">
           {book.description.length > 400
             ? book.description.substring(0, 320) + "..."
             : book.description}
