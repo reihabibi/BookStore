@@ -5,13 +5,13 @@ import { useRouter } from "next/router";
 import { MdOutlineMenuBook, MdHomeFilled } from "react-icons/md";
 import { CgNotes } from "react-icons/cg";
 import { TbBooks } from "react-icons/tb";
-import { AiOutlineFileSearch, AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineFileSearch, AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
 import { FiSettings, FiHelpCircle } from "react-icons/fi";
 
 function SideBar({ setIsSidebarOpen, isSidebarOpen }) {
   const Pages = [
     { name: "Home", url: "/", icon: <MdHomeFilled /> },
-    { name: "Find Books", url: "/Explore", icon: <AiOutlineFileSearch /> },
+    { name: "Explore Books", url: "/Explore", icon: <AiOutlineFileSearch /> },
     { name: "My Books", url: "", icon: <MdOutlineMenuBook /> },
     { name: "My Notes", url: "", icon: <CgNotes /> },
   ];
@@ -31,10 +31,10 @@ function SideBar({ setIsSidebarOpen, isSidebarOpen }) {
             <h1>Book Store</h1>
           </div>
           <button
-            className="block lg:hidden"
+            className="w-5 h-5 block lg:hidden text-white"
             onClick={() => setIsSidebarOpen(false)}
           >
-            X
+            <AiOutlineClose className="w-full h-full"/>
           </button>
         </div>
         <div className="">
@@ -53,17 +53,17 @@ function SideBar({ setIsSidebarOpen, isSidebarOpen }) {
               </div>
             </Link>
           ))}
-          <div className="flex md:hidden items-center text-white">
+          <div className="px-14 flex md:hidden items-center text-white">
+          <button onClick={() => setIsSearchOpen(!isSearchOpen)}>
+              <AiOutlineSearch className="-ml-10 w-10 h-10 p-2 btnColorHover rounded-full " />
+            </button>
             <input
               type="text"
               placeholder="Press Enter to Search...."
               className=
                 "w-full h-9 bg-transparent px-2 border-b border-white focus:outline-none "
 
-            />
-            <button onClick={() => setIsSearchOpen(!isSearchOpen)}>
-              <AiOutlineSearch className="-ml-10 w-10 h-10 p-2 btnColorHover rounded-full " />
-            </button>
+            />            
           </div>
         </div>
       </div>

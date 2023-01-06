@@ -27,7 +27,7 @@ export default function Book({ book }) {
         <div class="flex flex-col lg:flex-row pt-6 items-center gap-x-28 gap-y-10">
           <div className="">
             <motion.figure layoutId={book.title}>
-              <img className="w-48 rounded-lg" src={book.img.url} alt=""></img>
+              <img className="w-64 rounded-lg" src={book.img.url} alt=""></img>
             </motion.figure>
           </div>
 
@@ -84,15 +84,15 @@ export default function Book({ book }) {
         animate={{ opacity: 0.8, }}
         transition={{ delay: 1, duration: 2 }}
       >
-        <h1 class="mb-1 text-lg text-white font-medium">
+        <h1 class="mb-1 text-xl text-white font-semibold">
           {book.category.title}
         </h1>
-        <p class="text-gray-300">
+        <p class="text-gray-200">
           {book.description.length > 400
             ? book.description.substring(0, 320) + "..."
             : book.description}
         </p>
-        <p class="text-center text-gray-600 hover:text-gray-500">Read More</p>
+        <p class="text-center text-gray-600 hover:text-gray-500 cursor-pointer">Read More</p>
       </motion.div>
     </div>
   );
