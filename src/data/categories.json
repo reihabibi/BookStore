@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Adult",
+        "value": "adult"
+    },
+    {
+        "name": "Anthologies",
+        "value": "anthologies"
+    },
+    {
+        "name": "Art",
+        "value": "art"
+    },
+    {
+        "name": "Audiobooks",
+        "value": "audiobooks"
+    },
+    {
+        "name": "Biographies",
+        "value": "biographies"
+    },
+    {
+        "name": "Body",
+        "value": "body"
+    },
+    {
+        "name": "Business",
+        "value": "business"
+    },
+    {
+        "name": "Children",
+        "value": "children"
+    },
+    {
+        "name": "Comics",
+        "value": "comics"
+    },
+    {
+        "name": "Contemporary",
+        "value": "contemporary"
+    },
+    {
+        "name": "Cooking",
+        "value": "cooking"
+    },
+    {
+        "name": "Crime",
+        "value": "crime"
+    },
+    {
+        "name": "Engineering",
+        "value": "engineering"
+    },
+    {
+        "name": "Entertainment",
+        "value": "entertainment"
+    },
+    {
+        "name": "Fantasy",
+        "value": "fantasy"
+    },
+    {
+        "name": "Fiction",
+        "value": "fiction"
+    },
+    {
+        "name": "Food",
+        "value": "food"
+    },
+    {
+        "name": "General",
+        "value": "general"
+    },
+    {
+        "name": "Health",
+        "value": "health"
+    },
+    {
+        "name": "History",
+        "value": "history"
+    },
+    {
+        "name": "Horror",
+        "value": "horror"
+    },
+    {
+        "name": "Investing",
+        "value": "investing"
+    },
+    {
+        "name": "Literary",
+        "value": "literary"
+    },
+    {
+        "name": "Literature",
+        "value": "literature"
+    },
+    {
+        "name": "Manga",
+        "value": "manga"
+    },
+    {
+        "name": "Media-help",
+        "value": "media-help"
+    },
+    {
+        "name": "Memoirs",
+        "value": "memoirs"
+    },
+    {
+        "name": "Mind",
+        "value": "mind"
+    },
+    {
+        "name": "Mystery",
+        "value": "mystery"
+    },
+    {
+        "name": "Nonfiction",
+        "value": "nonfiction"
+    },
+    {
+        "name": "Religion",
+        "value": "religion"
+    },
+    {
+        "name": "Romance",
+        "value": "romance"
+    },
+    {
+        "name": "Science",
+        "value": "science"
+    },
+    {
+        "name": "Self",
+        "value": "self"
+    },
+    {
+        "name": "Spirituality",
+        "value": "spirituality"
+    },
+    {
+        "name": "Sports",
+        "value": "sports"
+    },
+    {
+        "name": "Superheroes",
+        "value": "superheroes"
+    },
+    {
+        "name": "Technology",
+        "value": "technology"
+    },
+    {
+        "name": "Thrillers",
+        "value": "thrillers"
+    },
+    {
+        "name": "Travel",
+        "value": "travel"
+    },
+    {
+        "name": "Women",
+        "value": "women"
+    },
+    {
+        "name": "Young",
+        "value": "young"
+    }
+]

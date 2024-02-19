@@ -1,0 +1,559 @@
+[
+  {
+    "kind": "books#volume",
+    "id": "w42MEAAAQBAJ",
+    "etag": "22jrsC7HLUo",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/w42MEAAAQBAJ",
+    "volumeInfo": {
+      "title": "Penguin Classics Nineteen Eighty Four",
+      "authors": ["George Orwell"],
+      "publisher": "National Geographic Books",
+      "publishedDate": "2013-01-15",
+      "description": "One of the BBC's '100 Novels That Shaped Our World' 'Who controls the past controls the future: who controls the present controls the past' Hidden away in the Record Department of the sprawling Ministry of Truth, Winston Smith skilfully rewrites the past to suit the needs of the Party. Yet he inwardly rebels against the totalitarian world he lives in, which demands absolute obedience and controls him through the all-seeing telescreens and the watchful eye of Big Brother, symbolic head of the Party. In his longing for truth and liberty, Smith begins a secret love affair with a fellow-worker Julia, but soon discovers the true price of freedom is betrayal. George Orwell's dystopian masterpiece, Nineteen Eighty-Four is perhaps the most pervasively influential book of the twentieth century.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780141393049"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0141393041"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": false
+      },
+      "pageCount": 0,
+      "printType": "BOOK",
+      "categories": ["Fiction"],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=w42MEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=w42MEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=w42MEAAAQBAJ&dq=nineteen+eighty-four&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=w42MEAAAQBAJ&dq=nineteen+eighty-four&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Penguin_Classics_Nineteen_Eighty_Four.html?hl=&id=w42MEAAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "AL",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "AL",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=w42MEAAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "George Orwell&#39;s dystopian masterpiece, Nineteen Eighty-Four is perhaps the most pervasively influential book of the twentieth century."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "fFCjDQAAQBAJ",
+    "etag": "/SQg3/B2SU8",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/fFCjDQAAQBAJ",
+    "volumeInfo": {
+      "title": "Atomic Habits",
+      "subtitle": "the life-changing million-copy #1 bestseller",
+      "authors": ["James Clear"],
+      "publisher": "Random House",
+      "publishedDate": "2018-10-18",
+      "description": "THE PHENOMENAL INTERNATIONAL BESTSELLER: 1 MILLION COPIES SOLD Transform your life with tiny changes in behaviour, starting now. People think that when you want to change your life, you need to think big. But world-renowned habits expert James Clear has discovered another way. He knows that real change comes from the compound effect of hundreds of small decisions: doing two push-ups a day, waking up five minutes early, or holding a single short phone call. He calls them atomic habits. In this ground-breaking book, Clears reveals exactly how these minuscule changes can grow into such life-altering outcomes. He uncovers a handful of simple life hacks (the forgotten art of Habit Stacking, the unexpected power of the Two Minute Rule, or the trick to entering the Goldilocks Zone), and delves into cutting-edge psychology and neuroscience to explain why they matter. Along the way, he tells inspiring stories of Olympic gold medalists, leading CEOs, and distinguished scientists who have used the science of tiny habits to stay productive, motivated, and happy. These small changes will have a revolutionary effect on your career, your relationships, and your life. ________________________________ A NEW YORK TIMES AND SUNDAY TIMES BESTSELLER 'A supremely practical and useful book.' Mark Manson, author of The Subtle Art of Not Giving A F*ck 'James Clear has spent years honing the art and studying the science of habits. This engaging, hands-on book is the guide you need to break bad routines and make good ones.' Adam Grant, author of Originals 'Atomic Habits is a step-by-step manual for changing routines.' Books of the Month, Financial Times 'A special book that will change how you approach your day and live your life.' Ryan Holiday, author of The Obstacle is the Way",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781473537804"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1473537800"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": false
+      },
+      "pageCount": 234,
+      "printType": "BOOK",
+      "categories": ["Self-Help"],
+      "averageRating": 4,
+      "ratingsCount": 4,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "1.12.12.0.preview.2",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=fFCjDQAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=fFCjDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=fFCjDQAAQBAJ&dq=Atomic+Habits&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=fFCjDQAAQBAJ&dq=Atomic+Habits&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Atomic_Habits.html?hl=&id=fFCjDQAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "AL",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "AL",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true
+      },
+      "pdf": {
+        "isAvailable": true
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=fFCjDQAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "He calls them atomic habits. In this ground-breaking book, Clears reveals exactly how these minuscule changes can grow into such life-altering outcomes."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "JQGv8eqVMrMC",
+    "etag": "fs/ITr5XFq0",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/JQGv8eqVMrMC",
+    "volumeInfo": {
+      "title": "To Kill a Mockingbird",
+      "authors": ["Harper Lee"],
+      "publisher": "Random House",
+      "publishedDate": "2004",
+      "description": "Theatre program.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780099466734"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0099466732"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 323,
+      "printType": "BOOK",
+      "categories": ["Fiction"],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.13.1.0.preview.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=JQGv8eqVMrMC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=JQGv8eqVMrMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=JQGv8eqVMrMC&dq=To+Kill+a+Mockingbird&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=JQGv8eqVMrMC&dq=To+Kill+a+Mockingbird&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/To_Kill_a_Mockingbird.html?hl=&id=JQGv8eqVMrMC"
+    },
+    "saleInfo": {
+      "country": "AL",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "AL",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=JQGv8eqVMrMC&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "Theatre program. WINNER OF THE PULITZER PRIZE &#39;No one ever forgets this book&#39; Independent &#39;Shoot all the bluejays you want, if you can hit &#39;em, but remember it&#39;s a sin to kill a mockingbird."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "9QFiPwAACAAJ",
+    "etag": "u88rAE0zva4",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/9QFiPwAACAAJ",
+    "volumeInfo": {
+      "title": "The Little Prince",
+      "authors": ["Antoine de Saint-Exupéry"],
+      "publisher": "Egmont Books Limited",
+      "publishedDate": "2005",
+      "description": "An aviator whose plane is forced down in the Sahara Desert encounters a little prince from a small planet who relates his adventures in seeking the secret of what is important in life.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "1405216344"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9781405216340"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 83,
+      "printType": "BOOK",
+      "categories": ["Children's stories"],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=9QFiPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=9QFiPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=9QFiPwAACAAJ&dq=The+Little+Prince&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=9QFiPwAACAAJ&dq=The+Little+Prince&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/The_Little_Prince.html?hl=&id=9QFiPwAACAAJ"
+    },
+    "saleInfo": {
+      "country": "AL",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "AL",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=9QFiPwAACAAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "An aviator whose plane is forced down in the Sahara Desert encounters a little prince from a small planet who relates his adventures in seeking the secret of what is important in life."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "dRL3jgEACAAJ",
+    "etag": "Jn74U8m4OO8",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/dRL3jgEACAAJ",
+    "volumeInfo": {
+      "title": "Little Women",
+      "authors": ["Louisa May Alcott"],
+      "publisher": "Alma Classics",
+      "publishedDate": "2016-05-01",
+      "description": "A book about growing up which has delighted generations of young readers. The illustrations by Ella Bailey are perfect for the modern audience. This edition includes extra material for young readers. The four March sisters – Meg, Jo, Beth and Amy – live in financial hardship in New England with their mother, while their father has been drafted to fight in the Civil War. The girls embark on a series of adventures and endure a number of unexpected misfortunes – experiences that allow their personalities to emerge: Meg sensible and outgoing, Jo literary and boyish, Beth musical and shy, and Amy artistic and selfish – but the bonds holding together the March family remain unbroken. Initially written as a novel for girls, Little Women is now regarded as an all-time American classic for all readers, inspiring generations of women writers and giving rise to many adaptations.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "1847495877"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9781847495877"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 0,
+      "printType": "BOOK",
+      "categories": ["Juvenile Fiction"],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=dRL3jgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=dRL3jgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=dRL3jgEACAAJ&dq=Little+Women&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=dRL3jgEACAAJ&dq=Little+Women&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Little_Women.html?hl=&id=dRL3jgEACAAJ"
+    },
+    "saleInfo": {
+      "country": "AL",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "AL",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=dRL3jgEACAAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "A book about growing up which has delighted generations of young readers. The illustrations by Ella Bailey are perfect for the modern audience. This edition includes extra material for young readers."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "7ISTEAAAQBAJ",
+    "etag": "O7dprE58QvQ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/7ISTEAAAQBAJ",
+    "volumeInfo": {
+      "title": "Normal People",
+      "subtitle": "A Novel",
+      "authors": ["Sally Rooney"],
+      "publisher": "Vintage Canada",
+      "publishedDate": "2020-02-18",
+      "description": "#1 INTERNATIONAL BESTSELLER LONGLISTED FOR THE MAN BOOKER PRIZE A PENGUIN BOOK CLUB PICK A wondrously wise, genuinely unputdownable novel from Sally Rooney, winner of the 2017 Sunday Times Young Writer of the Year Award (at 26, tied with Zadie Smith for the youngest-ever recipient)--the quintessential coming-of-age love story for our time. Connell Waldron is one of the most popular boys in his small-town high school--he is a star of the football team, an excellent student, and never wanting for attention from girls. The one thing he doesn't have is money. Marianne Sheridan, a classmate of Connell's, has the opposite problem. Marianne is plain-looking, odd, and stubborn, and while her family is well-off, she has no friends to speak of. There is, however, a deep and undeniable connection between the two teenagers, one that develops into a secret relationship. Everything changes when both Connell and Marianne are accepted to Trinity College. Suddenly Marianne is well-liked and elegant, holding court with her intellectual friends while Connell hangs at the sidelines, not quite as fluent in language of the elite. Throughout their years at university, Marianne and Connell circle each other, falling in and out of romance but never straying far from where they started. And as Marianne experiments with an increasingly dangerous string of boyfriends, Connell must decide how far he is willing to go to save his oldest friend. Sally Rooney brings her brilliant psychological acuity and perfectly spare prose to a novel that explores the subtleties of class, the electricity of first love, and the inescapable challenges of family and friendships. Normal People is a book that you will read in one sitting, and then immediately share with your friends.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780735276499"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0735276498"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": false
+      },
+      "pageCount": 0,
+      "printType": "BOOK",
+      "categories": ["Fiction"],
+      "averageRating": 3.5,
+      "ratingsCount": 85,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=7ISTEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=7ISTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=7ISTEAAAQBAJ&dq=Normal+People+Sally+Rooney&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=7ISTEAAAQBAJ&dq=Normal+People+Sally+Rooney&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Normal_People.html?hl=&id=7ISTEAAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "AL",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "AL",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=7ISTEAAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "Normal People is a book that you will read in one sitting, and then immediately share with your friends."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "G_iNEAAAQBAJ",
+    "etag": "/uYgxmOpB5Y",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/G_iNEAAAQBAJ",
+    "volumeInfo": {
+      "title": "Good Omens",
+      "authors": ["Terry Pratchett", "Neil Gaiman"],
+      "publisher": "National Geographic Books",
+      "publishedDate": "2015-03-17",
+      "description": "____________________ The book behind the Amazon Prime and BBC Series starring David Tennant, Michael Sheen, Jon Hamm and Benedict Cumberbatch 'Ridiculously inventive and gloriously funny' Guardian ____________________ What if, for once, the predictions are right, and the Apocalypse really is due to arrive next Saturday, just after tea? It's a predicament that Aziraphale, a somewhat fussy angel, and Crowley, a fast-living demon, now find themselves in. They've been living amongst Earth's mortals since The Beginning and, truth be told, have grown rather fond of the lifestyle and, in all honesty, are not actually looking forward to the coming Apocalypse. And then there's the small matter that someone appears to have misplaced the Antichrist . . . What readers are saying about Good Omens: ***** 'A superb recipe for disaster. I didn't stop grinning from beginning to end.' ***** 'Both Gaiman and Pratchett are great authors and they complement each other brilliantly' ***** 'Superbly enjoyable read. Seamlessly co-written.'",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780552171892"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0552171891"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": false
+      },
+      "pageCount": 0,
+      "printType": "BOOK",
+      "categories": ["Fiction"],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=G_iNEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=G_iNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=G_iNEAAAQBAJ&dq=Good+Omens&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=G_iNEAAAQBAJ&dq=Good+Omens&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Good_Omens.html?hl=&id=G_iNEAAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "AL",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "AL",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=G_iNEAAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "____________________ The book behind the Amazon Prime and BBC Series starring David Tennant, Michael Sheen, Jon Hamm and Benedict Cumberbatch &#39;Ridiculously inventive and gloriously funny&#39; Guardian ____________________ What if, for once, the ..."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "ayxRnwEACAAJ",
+    "etag": "Yy4w/HL2gQI",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/ayxRnwEACAAJ",
+    "volumeInfo": {
+      "title": "The Song of Achilles",
+      "subtitle": "A Novel",
+      "authors": ["Madeline Miller"],
+      "publisher": "Ecco",
+      "publishedDate": "2012-03-06",
+      "description": "Patroclus, an awkward young prince, follows Achilles into war, little knowing that the years that follow will test everything they have learned, everything they hold dear. And that, before he is ready, he will be forced to surrender his friend to the hands of Fate. Set during the Trojan War.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0062060619"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780062060617"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 384,
+      "printType": "BOOK",
+      "categories": ["Fiction"],
+      "averageRating": 4,
+      "ratingsCount": 2586,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=ayxRnwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=ayxRnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=ayxRnwEACAAJ&dq=The+song+of+Achilles&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=ayxRnwEACAAJ&dq=The+song+of+Achilles&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/The_Song_of_Achilles.html?hl=&id=ayxRnwEACAAJ"
+    },
+    "saleInfo": {
+      "country": "AL",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "AL",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=ayxRnwEACAAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "Patroclus, an awkward young prince, follows Achilles into war, little knowing that the years that follow will test everything they have learned, everything they hold dear."
+    }
+  }
+]

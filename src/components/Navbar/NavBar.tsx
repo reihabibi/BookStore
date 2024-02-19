@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 
+import SearchInput from "./SearchInput";
+
 import { AiOutlineSearch, AiOutlineUser } from "react-icons/ai";
 import { RiArrowDownSFill } from "react-icons/ri";
 import { HiMenuAlt2 } from "react-icons/hi";
 
 
-function NavBar({ setIsSidebarOpen, isSidebarOpen }) {
+function NavBar({ setIsSidebarOpen, isSidebarOpen }: any) {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
@@ -19,14 +21,7 @@ function NavBar({ setIsSidebarOpen, isSidebarOpen }) {
         </button>
         <div className="flex items-center gap-x-4">
           <div className="hidden md:flex items-center">
-            <input
-              type="text"
-              placeholder="Press Enter to Search...."
-              className={
-                "h-9 bg-transparent px-2 md:px-6 border-b border-transparent text-white focus:outline-none animation duration-500 ease-in-out " +
-                (isSearchOpen ? "md:w-96  border-white " : " w-0")
-              }
-            />
+            <SearchInput isSearchOpen={isSearchOpen}/>
             <button onClick={() => setIsSearchOpen(!isSearchOpen)}>
               <AiOutlineSearch className="-ml-10 w-10 h-10 p-2 btnColorHover rounded-full " />
             </button>
