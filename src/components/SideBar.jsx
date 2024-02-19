@@ -11,7 +11,7 @@ import { FiSettings, FiHelpCircle } from "react-icons/fi";
 function SideBar({ setIsSidebarOpen, isSidebarOpen }) {
   const Pages = [
     { name: "Home", url: "/", icon: <MdHomeFilled /> },
-    { name: "Explore Books", url: "/Explore", icon: <AiOutlineFileSearch /> },
+    { name: "Explore Books", url: "/explore", icon: <AiOutlineFileSearch /> },
     { name: "My Books", url: "", icon: <MdOutlineMenuBook /> },
     { name: "My Notes", url: "", icon: <CgNotes /> },
   ];
