@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import React , { useEffect, useState } from "react";
 import { useDebounce } from "use-debounce";
 import { useRouter, usePathname } from "next/navigation";
 
