@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
-import searchHook from "@/hooks/searchHook"
+import SearchHook from "@/hooks/SearchHook"
 import BookItem from "./BookItem";
 
 import Typography from "@/components/ui/typography";
@@ -16,7 +16,7 @@ interface IBooksGrid {
 
 const BooksGrid: React.FC<IBooksGrid> = ({ books, title, viewAll, category }) => {
 
-  const { searchText, setSearchText } = searchHook();
+  const { searchText, setSearchText } = SearchHook();
 
   return (
     <div className="mb-14">

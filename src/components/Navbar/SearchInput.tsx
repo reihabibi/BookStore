@@ -1,9 +1,9 @@
 
-import searchHook from "@/hooks/searchHook"
+import SearchHook from "@/hooks/SearchHook"
 
 function SearchInput({isSearchOpen} : any) {
   
-  const { searchText, setSearchText } = searchHook();
+  const { searchText, setSearchText } = SearchHook();
 
   return (
     <div>

@@ -5,7 +5,7 @@ import { useDebounce } from "use-debounce";
 import { useRouter, usePathname } from "next/navigation";
 
 
-const searchHook = () => {
+const SearchHook = () => {
     const router = useRouter();
     const pathname = usePathname();
   
@@ -24,4 +24,4 @@ const searchHook = () => {
 
 }
 
-export default searchHook
+export default SearchHook

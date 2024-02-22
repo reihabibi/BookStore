@@ -2,12 +2,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
 import CategoriesList from "@/data/categories.json"
 
-import searchHook from "@/hooks/searchHook"
+import SearchHook from "@/hooks/SearchHook"
 
 const TRANSLATE_AMOUNT = 200
 
 export function FilterModal() {
-  const { searchText, setSearchText } = searchHook();
+  const { searchText, setSearchText } = SearchHook();
 
   const [translate, setTranslate] = useState(0)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -30,7 +30,7 @@ export function FilterModal() {
   }, [categories, translate])
 
   return (
-    <div className="overflow-x-hidden relative">
+    <div className="overflow-hidden relative">
       <div ref={containerRef} className="ml-16 mr-56 overflow-x-hidden relative">
         <div
           className="flex whitespace-nowrap gap-3 transition-transform w-[max-content]"

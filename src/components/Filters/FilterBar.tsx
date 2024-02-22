@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from "react"
 
 import CategoriesList from "@/data/categories.json"
-import searchHook from "@/hooks/searchHook"
+import SearchHook from "@/hooks/SearchHook"
 
 
 const FilterBar = () => {
 
     const categoriesList: any[] = CategoriesList
-    const { searchText, setSearchText } = searchHook();
+    const { searchText, setSearchText } = SearchHook();
 
     return (
         <div className="mb-8 flex gap-3 md:gap-6">
