@@ -2,12 +2,10 @@
 
 import React , { useEffect, useState } from "react";
 import { useDebounce } from "use-debounce";
-import { useRouter, usePathname } from "next/navigation";
-
+import { useRouter } from 'next/router';
 
 const SearchHook = () => {
     const router = useRouter();
-    const pathname = usePathname();
   
     const [searchText, setSearchText] = useState('');
     const [query] = useDebounce(searchText, 500);
